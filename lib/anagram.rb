@@ -6,7 +6,6 @@ class Anagram
   end
 
   def match(anagrams)
-    #p @anagrams
     matches = []
     sorted = word.chars.sort.join
     anagrams.each{|a|
